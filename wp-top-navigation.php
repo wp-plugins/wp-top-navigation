@@ -24,7 +24,7 @@ if(version_compare(PHP_VERSION, $required_php_version, '<') || version_compare(g
 }
 
 /**
-wp_top_navigation
+ * wp_top_navigation
  * Loads the CSS and JS overrides
 **/
 function wp_top_navigation($page){
