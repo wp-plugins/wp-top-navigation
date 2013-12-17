@@ -1,15 +1,13 @@
 <?php
 
-/**
- *
- * Plugin Name: WP Top Navigation
- * Plugin URI: https://github.com/sdellow/wp-top-navigation
- * Description: Puts the WordPress admin navigation at the top of the screen providing more screen estate for the rest of WordPress. Its non-destructive nature still allows for a responsive admin area. Requires WordPress 3.8 or higher.
- * Version: 1.2.0
- * Author: Stewart Dellow
- * Author URI: http://www.hellostew.com
- *
-**/
+/*
+Plugin Name: WP Top Navigation
+Plugin URI: https://github.com/sdellow/wp-top-navigation
+Description: Puts the WordPress admin navigation at the top of the screen providing more screen estate for the rest of WordPress. Its non-destructive nature still allows for a responsive admin area. Requires WordPress 3.8 or higher.
+Version: 1.2.1
+Author: Stewart Dellow
+Author URI: http://www.hellostew.com
+*/
 
 // Do a PHP and WP version check
 $required_php_version = '5.3';
@@ -26,7 +24,7 @@ if(version_compare(PHP_VERSION, $required_php_version, '<') || version_compare(g
 }
 
 /**
- * wp_top_navigation
+wp_top_navigation
  * Loads the CSS and JS overrides
 **/
 function wp_top_navigation($page){
