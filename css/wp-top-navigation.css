@@ -1,0 +1,46 @@
+@media only screen and (min-width: 900px){
+	.wptn-slide {
+		width: 50px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+		overflow: hidden;
+		cursor: pointer;
+		background: url(../images/sa.png) no-repeat;
+
+		-webkit-transition: left 750ms ease, right 750ms ease, box-shadow 750ms ease;
+		-moz-transition   : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
+		-o-transition     : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
+		transition        : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
+	}
+
+	.wptn-slide.wptn-dir-left {
+		left: -50px;
+		background-position: 0 center;
+	}
+	.wptn-slide.wptn-dir-right {
+		right: -50px;
+		background-position: -50px center;
+	}
+
+	body.wp-top-navigation-slider #adminmenu {
+		width: 99999px;
+		padding: 0px 50px;
+		position: relative;
+	}
+
+	body.wp-top-navigation-slider .wptn-slide.wptn-dir-left {
+		left: 0;
+	}
+	body.wp-top-navigation-slider .wptn-slide.wptn-dir-right {
+		right: 0;
+	}
+	body.wp-top-navigation-slider .wptn-slide.wptn-dir-left.shadow {
+		box-shadow: 5px 0 10px rgba(0,0,0,0.1);
+	}
+	body.wp-top-navigation-slider .wptn-slide.wptn-dir-right.shadow {
+		box-shadow: -5px 0 10px rgba(0,0,0,0.1);
+	}
+}

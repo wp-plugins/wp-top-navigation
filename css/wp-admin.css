@@ -1,0 +1,88 @@
+@media only screen and (min-width: 900px){
+	#adminmenu {
+		-webkit-transition: padding 750ms ease;
+		-moz-transition   : padding 750ms ease;
+		-o-transition     : padding 750ms ease;
+		transition        : padding 750ms ease;
+	}
+
+	.sticky-menu #adminmenuwrap {
+		top: 32px;
+	}
+
+	#adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu {
+		width: 100%;
+		float: none;
+	}
+
+	#adminmenuback {
+		background: transparent;
+	}
+
+	#adminmenu {
+		margin: 0;
+		letter-spacing: -3px;
+	}
+	#adminmenu li.menu-top {
+		min-height: 0;
+		display: inline-block;
+		zoom: 1; *display: inline;
+		vertical-align: top;
+		letter-spacing: normal;
+	}
+	#adminmenu div.wp-menu-image {
+		display: none;
+	}
+	#adminmenu li.wp-menu-separator{
+		width: 1px;
+		padding: 0;
+		display: inline-block;
+		zoom: 1; *display: inline;
+		vertical-align: top;
+		border-width: 0;
+	}
+	#adminmenu div.separator {
+		height: 38px;
+		padding: 0;
+		border-width: 0;
+		background: white;
+		background: rgba(255,255,255,0.3);
+	}
+	#adminmenu a.menu-top, #adminmenu .wp-submenu-head {
+		padding: 10px;
+	}
+	#adminmenu div.wp-menu-name {
+		padding: 0;
+	}
+	#adminmenu #collapse-menu {
+		display: none;
+	}
+	#adminmenu .wp-submenu {
+		display: none;
+		left: 0; top: 100%;
+	}
+	#adminmenu li.menu-top:hover .wp-submenu {
+		display: block;
+	}
+	#adminmenu .wp-submenu li {
+		white-space: nowrap;
+	}
+
+	ul#adminmenu a.wp-has-current-submenu:after,
+	ul#adminmenu > li.current > a.current:after {
+		display: none;
+	}
+
+	#wpcontent, #wpfooter {
+		margin: 39px 30px 30px;
+	}
+
+	#adminmenu .wp-has-current-submenu .wp-submenu,
+	.no-js li.wp-has-current-submenu:hover .wp-submenu,
+	#adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+	#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+	#adminmenu .wp-has-current-submenu.opensub .wp-submenu {
+		width: auto;
+		position: absolute;
+	}
+}
