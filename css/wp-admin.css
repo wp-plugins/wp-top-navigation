@@ -59,7 +59,7 @@
 	}
 	#adminmenu .wp-submenu {
 		display: none;
-		left: 0; top: 100%;
+		left: 0; top: 100% !important;
 	}
 	#adminmenu li.menu-top:hover .wp-submenu {
 		display: block;

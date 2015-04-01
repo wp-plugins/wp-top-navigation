@@ -9,11 +9,13 @@
 		overflow: hidden;
 		cursor: pointer;
 		background: url(../images/sa.png) no-repeat;
+	}
 
-		-webkit-transition: left 750ms ease, right 750ms ease, box-shadow 750ms ease;
-		-moz-transition   : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
-		-o-transition     : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
-		transition        : left 750ms ease, right 750ms ease, box-shadow 750ms ease;
+	#adminmenu {
+		-webkit-transition: none;
+		-moz-transition   : none;
+		-o-transition     : none;
+		transition        : none;
 	}
 
 	.wptn-slide.wptn-dir-left {

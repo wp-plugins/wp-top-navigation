@@ -1,12 +1,12 @@
 === WP Top Navigation ===
-Contributors: sdellow
-Donate link: http://hellostew.com
-Tags: mp6, navigation, 3.8, top, scroll
-Requires at least: 3.8
-Tested up to: 3.8
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Contributors:sdellow
+Donate link:http://hellostew.com
+Tags:navigation, top, scroll
+Requires at least:3.8
+Tested up to:4.1.1
+Stable tag:1.2.1
+License:GPLv2 or later
+License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 Puts the WordPress admin navigation at the top of the screen providing more screen estate for the rest of WordPress.
 
@@ -29,10 +29,18 @@ N/A
 
 == Changelog ==
 
+= 1.3.0 =
+* Fixes and improvements.
+= 1.2.1 =
+* Formatting
 = 1.2.0 =
 * Released
 
 == Upgrade Notice ==
 
+= 1.3.0 =
+* Released
+= 1.2.1 =
+* Released
 = 1.2.0 =
 * Released
