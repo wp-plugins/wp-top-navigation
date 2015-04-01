@@ -1,0 +1,6 @@
+@media only screen and (min-width: 900px){
+	#wpadminbar,
+	.wptn-slide {
+		background-color: #B6302B !important; /* Original #CF4944 */
+	}
+}
