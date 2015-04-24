@@ -16,7 +16,7 @@
 	}
 
 	#adminmenuback {
-		background: transparent;
+		display: none;
 	}
 
 	#adminmenu {
