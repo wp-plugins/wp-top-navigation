@@ -98,7 +98,6 @@
 	**/
 	Module.check_slide = function(){
 		if($(window).outerWidth() > 900){
-
 			if(!nav_appended){
 				Module.append_nav();
 			}
@@ -110,7 +109,6 @@
 			else{
 				Module.reset_screen();
 			}
-
 		}
 		else{
 			Module.reset_screen();
@@ -131,7 +129,7 @@
 	 * Append slider navigation.
 	**/
 	Module.append_nav = function(){
-		$('#admin_menuwrap').append(nav_left).prepend(nav_right);
+		$('#adminmenuwrap').append(nav_left).prepend(nav_right);
 
 		nav_appended = true;
 	}
@@ -143,7 +141,7 @@
 	Module.slide_nav = function(action){
 		if(action === 'left' || action === 'right'){
 			var distance = (action == 'left') ? 0 : - Module.get_offset();
-			admin_menu.animate({'left': distance  + 'px'}, 500);
+			admin_menu.animate({'left': distance  + 'px'}, 1000);
 		}
 		else{
 			admin_menu.stop(true, false);
