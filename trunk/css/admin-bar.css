@@ -1,0 +1,44 @@
+@media only screen and (min-width: 900px){
+	body.admin-color-fresh #wpadminbar,
+	body.admin-color-fresh .wptn-slide {
+	  background-color: #333333; /* Original: #222222 */
+	}
+
+	body.admin-color-light #wpadminbar,
+	body.admin-color-light .wptn-slide {
+	  background-color: #CCCCCC; /* Original: #E5E5E5 */
+	}
+
+	body.admin-color-blue #wpadminbar,
+	body.admin-color-blue .wptn-slide {
+	  background-color: #3993B3; /* Original: #52ACCC */
+	}
+
+	body.admin-color-coffee #wpadminbar,
+	body.admin-color-coffee .wptn-slide {
+	  background-color: #403933; /* Original: #59524C */
+	}
+
+	body.admin-color-ectoplasm #wpadminbar,
+	body.admin-color-ectoplasm .wptn-slide {
+	  background-color: #392654; /* Original: #523F6D */
+	}
+
+	body.admin-color-midnight #wpadminbar,
+	body.admin-color-midnight .wptn-slide {
+	  background-color: #1D2226; /* Original: #363B3F */
+	}
+
+	body.admin-color-ocean #wpadminbar,
+	body.admin-color-ocean .wptn-slide {
+	  background-color: #5A757D; /* Original: #738E96 */
+	}
+
+	body.admin-color-sunrise #wpadminbar,
+	body.admin-color-sunrise .wptn-slide {
+	  background-color: #B6302B; /* Original: #CF4944 */
+	}
+	#wpadminbar {
+		background: #333;
+	}
+}
